@@ -2,3 +2,5 @@
 ===
 
 music game
+
+scripts for the game
