@@ -16,13 +16,13 @@ public class PlaySound : MonoBehaviour {
 	void OnMouseEnter() {
 		if (!this.gameObject.audio.isPlaying)
 			this.gameObject.audio.Play();
-		renderer.material.color -= new Color(0.1F, 0, 0);
+		renderer.material.color -= new Color(0.5F, 0, 0);
 	}
 
 	void OnMouseExit() {
 		if (this.gameObject.audio.isPlaying)
 				this.gameObject.audio.Stop ();
-		renderer.material.color += new Color (0.1F, 0, 0);
+		renderer.material.color += new Color (0.5F, 0, 0);
 	}
 
 }
